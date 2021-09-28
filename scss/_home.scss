@@ -1,0 +1,296 @@
+/* === INICIO MENU ===*/
+
+nav{
+    background: #555;
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        padding: 10px;
+    }
+    a:hover{
+        background-color:brown;
+    }
+  }
+
+
+/* === FIN MENU === */
+
+/* === INICIO NUEVOS ESTRENOS === */
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 100px;
+    justify-content: space-evenly;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    li{
+        border: 1px solid black;
+        background-color: burlywood;
+    }
+}
+
+
+/* === FIN NUEVOS ESTRENOS === */
+
+/* === INICIO BANNERS === */
+
+.grid-container-banners{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 5px;
+    justify-self: center;
+    a{
+        justify-self: center;
+    }
+}
+
+
+.artbook{
+    width: 120px;
+    height: 120px;
+    background-image: url("../public/img/banners/mobile/banner-artbook-mobile.jpg");
+    transition: 0.25s;
+    border: 1px solid black;
+    justify-self: center;
+    
+}
+
+.tomounico{
+    width: 120px;
+    height: 120px;
+    background-image: url("../public/img/banners/mobile/banner-tomo-mobile.jpg");
+    transition: 0.25s;
+    border: 1px solid black;
+    justify-self: center;
+}
+
+.seriescompletas{
+    width: 120px;
+    height: 120px;
+    background-image: url("../public/img/banners/mobile/banner-series-mobile.jpg");
+    transition: 0.25s;
+    border: 1px solid black;
+    justify-self: center;
+}
+
+.infantiles{
+    width: 120px;
+    height: 120px;
+    background-image: url("../public/img/banners/mobile/banner-infantiles-mobile.jpg");
+    transition: 0.25s;
+    border: 1px solid black;
+    justify-self: center;
+}
+    
+/* === FIN BANNERS === */
+
+/* === INICIO NOTICIAS === */
+.grid-container-noticias {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    grid-column-gap: 0px;
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "video"
+      "noticia"; 
+  }
+  .video { grid-area: video; }
+  .noticia { grid-area: noticia; }
+
+
+/* === FIN NOTICIAS === */
+
+
+@media only screen and (min-width:768px){
+
+    /* === INICIO NUEVOS ESTRENOS === */
+
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 100px;
+        justify-content: space-evenly;
+        column-gap: 80px;
+    }
+
+    .product-grid{
+        .product-links{
+            li{
+                a{
+                    color: #fff;
+                    background-color: brown;
+                    font-size: 20px;
+                    text-shadow: 0 0 3px rgba(0,0,0,0.7);
+                    padding: 1px 10px;
+                    display: block;
+                    opacity: 0.9;
+                    transition: all 0.3s ease 0s;
+                }
+            }
+        }
+    }
+    /* === FIN NUEVOS ESTRENOS === */
+
+
+    /* === INICIO BANNERS === */
+    .grid-container-banners{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        
+    }
+
+    .artbook{
+        width: 620px;
+        height: 120px;
+        background-image: url("../public/img/banners/banner-artbook.jpg");
+        opacity: 0.75;
+        transition: 0.25s;
+        font-size: 0;
+    }
+    
+    .artbook:hover{
+        background-image: url("../public/img/banners/banners-texto/banner-artbook-texto.jpg");
+        transform: scale(1.02,1);
+        opacity: 1;
+    }
+    .tomounico{
+        width: 620px;
+        height: 120px;
+        background-image: url("../public/img/banners/banner-tomo.jpg");
+        opacity: 0.75;
+        transition: 0.25s;
+        font-size: 0;
+    }
+    
+    .tomounico:hover{
+        background-image: url("../public/img/banners/banners-texto/banner-tomo-texto.jpg");
+        transform: scale(1.02,1);
+        opacity: 1;
+    }
+    .seriescompletas{
+        width: 620px;
+        height: 120px;
+        background-image: url("../public/img/banners/banner-series.jpg");
+        opacity: 0.75;
+        transition: 0.25s;
+        font-size: 0;
+    }
+    
+    .seriescompletas:hover{
+        background-image: url("../public/img/banners/banners-texto/banner-series-texto.jpg");
+        transform: scale(1.02,1);
+        opacity: 1;
+    }
+    .infantiles{
+        width: 620px;
+        height: 120px;
+        background-image: url("../public/img/banners/banner-infantiles.jpg");
+        opacity: 0.75;
+        transition: 0.25s;
+        font-size: 0;
+    }
+    
+    .infantiles:hover{
+        background-image: url("../public/img/banners/banners-texto/banner-infantiles-texto.jpg");
+        transform: scale(1.02,1);
+        opacity: 1;
+    }
+
+    .bannerdc{
+        background-image: url("../public/img/banners/bannerdc.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 225px;
+        min-width:100%;
+        margin-top: 15px;
+    
+    }
+
+    .bannermarvel{
+        background-image: url("../public/img/banners/bannermarvel.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 225px;
+        min-width:100%;
+        margin-top: 15px;
+
+    }
+
+    .bannerimage{
+        background-image: url("../public/img/banners/bannerimage.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 225px;
+        min-width:100%;
+        margin-top: 15px;
+
+    }
+
+
+    .bannerdarkhorse{
+        background-image: url("../public/img/banners/bannerdarkhorse.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 225px;
+        min-width:100%;
+        margin-top: 15px;
+}
+    /* === FIN BANNERS === */
+
+    /* === INICIO NOTICIAS === */
+    .grid-container-noticias {
+        display: grid; 
+        grid-auto-columns: 1fr; 
+        grid-auto-rows: 1fr; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        grid-column-gap: 5px;
+        gap: 0px 0px; 
+        grid-template-areas: 
+        "video noticia"; 
+    }
+    .video { grid-area: video;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+    .noticia { grid-area: noticia;
+        display: inline-grid;
+        justify-items: center;
+        align-items: center;
+        a{justify-self: right;
+
+        }
+    }
+
+
+
+    .imagen-noticia{
+        img{
+            margin-top: 50px;
+            width: 342px;
+            height: 407px;
+            justify-items: center;
+            align-items: center;
+        }
+    }
+}

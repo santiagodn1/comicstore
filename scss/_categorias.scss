@@ -1,0 +1,244 @@
+
+  .imagenavatar { grid-area: imagenavatar; 
+    margin: 40px 10px 0px 10px; 
+    width: 300px;
+    height: 450px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/avatarmobile.jpg");
+    border: 1px solid black;
+    background-position: center center;
+    justify-self: center;}
+
+  .imagenradiant { grid-area: imagenradiant; 
+    margin: 40px 10px 0px 10px; 
+    width: 300px;
+    height: 450px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/radiantblackmobile.jpg");
+    border: 1px solid black;
+    background-position: center center;
+    justify-self: center;}
+
+  .imagendc { grid-area: imagendc; 
+    width: 300px;
+    height: 350px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/super-villiansmobile.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagenspidermangame { grid-area: imagenspidermangame; 
+    width: 300px;
+    height: 350px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/spidermangamemobile.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagenbatmancaballero { grid-area: imagenbatmancaballero; 
+    width: 300px;
+    height: 350px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/batmancaballeromobile.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagenconvergencia { grid-area: imagenconvergencia; 
+    width: 300px;
+    height: 350px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/convergenciamobile.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagenteentitans { grid-area: imagenteentitans; 
+    width: 300px;
+    height: 460px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/teentitansmobile.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagenbatmanbaticueva { grid-area: imagenbatmanbaticueva; 
+    width: 300px;
+    height: 350px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/batmanbaticuevamobile.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .descripcion1 { grid-area: descripcion1; 
+  display:none;}
+  .descripcion2 { grid-area: descripcion2; 
+  display:none;}
+
+@media only screen and (min-width:768px){
+.body-categorias {
+    display: grid;
+    grid-template-columns: 5fr 10fr 5fr;
+    grid-template-rows: 0.1fr 10fr 0.1fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "fondo-izquierda categoria-header fondo-derecha"
+      "fondo-izquierda categoria-main fondo-derecha"
+      "fondo-izquierda categoria-footer fondo-derecha";
+  }
+  
+  
+    .categoria-header { grid-area: categoria-header; }
+    .categoria-main { grid-area: categoria-main; }
+    .categoria-footer { grid-area: categoria-footer; }
+    .fondo-izquierda { grid-area: fondo-izquierda; 
+    background: linear-gradient(90deg, rgba(215,215,215,1) 0%, rgba(215,215,215,1) 97%, rgba(115,115,115,1) 100%);}
+    .fondo-derecha {grid-area: fondo-derecha;
+    background: linear-gradient(90deg, rgba(115,115,115,1) 0%, rgba(215,215,215,1) 3%, rgba(215,215,215,1) 100%);}
+
+  
+
+.container-seriesCompletas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagenradiant"
+      "descripcion1"
+      "compra-y-boton1"
+      "imagenavatar"
+      "descripcion2"
+      "compra-y-boton2";
+  }
+
+  .container-artbooks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagendc"
+      "descripcion1"
+      "compra-y-boton1"
+      "imagenspidermangame"
+      "descripcion2"
+      "compra-y-boton2";
+  }
+
+
+  .container-tomosunicos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagenbatmancaballero"
+      "descripcion1"
+      "compra-y-boton1"
+      "imagenconvergencia"
+      "descripcion2"
+      "compra-y-boton2";
+  }
+
+  .container-infantiles {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "imagenteentitans"
+      "descripcion1"
+      "compra-y-boton1"
+      "imagenbatmanbaticueva"
+      "descripcion2"
+      "compra-y-boton2";
+  }
+  
+  .imagenradiant { grid-area: imagenradiant; 
+    width: 920px;
+    height: 300px;
+    margin: 40px 10px 0px 10px; 
+    background-image: url("../public/img/categorias/radiantblack.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagendc { grid-area: imagendc; 
+    width: 920px;
+    height: 300px;
+    margin: 40px 10px 0px 10px; 
+    background-image: url("../public/img/categorias/super-villians.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagenspidermangame { grid-area: imagenspidermangame; 
+    width: 920px;
+    height: 300px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/spidermangame.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagenbatmancaballero { grid-area: imagenbatmancaballero; 
+    width: 920px;
+    height: 300px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/batmancaballero.png");
+    border: 1px solid black;
+    justify-items: center;}
+
+    
+  .imagenconvergencia { grid-area: imagenconvergencia; 
+    width: 920px;
+    height: 300px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/convergencia.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagenteentitans { grid-area: imagenteentitans; 
+    width: 920px;
+    height: 400px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/teentitans.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+
+  .imagenbatmanbaticueva { grid-area: imagenbatmanbaticueva; 
+    width: 920px;
+    height: 300px;
+    margin: 40px 5px 0px 5px; 
+    background-image: url("../public/img/categorias/batmanbaticueva.jpg");
+    border: 1px solid black;
+    justify-items: center;}
+  
+
+  .descripcion1 { grid-area: descripcion1; 
+  display:block;}
+  
+  .compra-y-boton1 { grid-area: compra-y-boton1; }
+  
+  .imagenavatar { grid-area: imagenavatar; 
+    margin: 40px 10px 0px 10px; 
+    width: 920px;
+    height: 288px;
+    margin: 40px 10px 0px 10px; 
+    background-image: url("../public/img/categorias/avatar.jpg");
+    border: 1px solid black;
+    justify-self: center;}
+  
+  .descripcion2 { grid-area: descripcion2; 
+  display:block;}
+  
+  .compra-y-boton2 { grid-area: compra-y-boton2; }
+
+.fondo-izquierda { grid-area: fondo-izquierda; 
+    background: linear-gradient(90deg, rgba(215,215,215,1) 0%, rgba(215,215,215,1) 97%, rgba(115,115,115,1) 100%);}
+.fondo-derecha {grid-area: fondo-derecha;
+    background: linear-gradient(90deg, rgba(115,115,115,1) 0%, rgba(215,215,215,1) 3%, rgba(215,215,215,1) 100%);}
+}
+
+
+  

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="../../css/pruebacss.css">
+
+    <!-- SEO KEYWORDS -->
+    <meta name="keywords"
+        content="comic, dark horse, dark, horse, hellboy, black hammer, colder, lady killer, polar, umbrella academy">
+
+    <!-- Lo que aparece cuando compartis la web -->
+    <meta name="description" content="Los mejores comics de Dark Horse">
+
+    <title>Dark Horse</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <a href="../../index.html">
+            <div class="logo"></div>
+        </a>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../../index.html">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../menu/marvel.html">Marvel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../menu/dc-comics.html">DC Comics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../menu/dark-horse.html">Dark Horse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../menu/image-comics.html">Image Comics</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categorías
+                                </a>
+                                <ul class="dropdown-menu bg-gray" aria-labelledby="categoriasDropdown">
+                                    <li><a class="dropdown-item" href="../categorias/art-books.html">Art Books</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../categorias/tomos-unicos.html">Tomos
+                                            Únicos</a></li>
+                                    <li><a class="dropdown-item" href="../categorias/series-completas.html">Series
+                                            Completas</a></li>
+                                    <li><a class="dropdown-item" href="../categorias/infantiles.html">Infantiles</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="noticiasDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Noticias
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="noticiasDropdown">
+                                    <li><a class="dropdown-item" href="../noticias/noticia1.html">Invincible nueva
+                                            temporada</a></li>
+                                    <li><a class="dropdown-item" href="../noticias/noticia2.html">Injustice nuevo
+                                            estreno</a></li>
+                                    <li><a class="dropdown-item" href="../noticias/noticia3.html">Marvel - What
+                                            if?</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="fondo-izquierda"></div>
+    <div class="fondo-derecha"></div>
+    <main class="main">
+        <div class="bannerdarkhorse">
+        </div>
+        <hr>
+        <section class="seccion1">
+            <div class="flex-container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-darkhorse/hellboy.jpg">
+                                </a>
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-hellboy" class="btn btn-primary"
+                                            id="liveAlertBtn-hellboy">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalHellboy" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalHellboy">Mas info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Hellboy</h3>
+                                <div class="price">$200</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-darkhorse/blackhammer.jpg">
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-blackhammer" class="btn btn-primary"
+                                            id="liveAlertBtn-blackhammer">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalBlackhammer" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalBlackhammer">Mas info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Black Hammer</h3>
+                                <div class="price">$200</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-darkhorse/colder.jpg">
+                                <span class="product-sale-label">Oferta</span>
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-colder" class="btn btn-primary"
+                                            id="liveAlertBtn-colder">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalColder" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalColder">Mas info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Colder</h3>
+                                <div class="price"><span>$200</span> $180</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="flex-container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-darkhorse/ladykiller.jpg">
+                                <span class="product-sale-label">Oferta</span>
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-ladykiller" class="btn btn-primary"
+                                            id="liveAlertBtn-ladykiller">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalLadykiller" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalLadykiller">Mas info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Lady Killer</h3>
+                                <div class="price"><span>$230</span> $190</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-darkhorse/polar.jpg">
+
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-polar" class="btn btn-primary"
+                                            id="liveAlertBtn-polar">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalPolar" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalPolar">Mas info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Polar</h3>
+                                <div class="price">$150</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-darkhorse/umbrella.jpg">
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-umbrella" class="btn btn-primary"
+                                            id="liveAlertBtn-umbrella">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalUmbrella" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalUmbrella">Mas info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">The Umbrella Academy</h3>
+                                <div class="price">$200</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribete
+            a nuestro Newsletter</button>
+        <div class="social-menu">
+            <h3>Siguenos en nuestras redes sociales</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+
+    <!-- Modal Hellboy -->
+    <div class="modal fade" id="modalHellboy" tabindex="-1" aria-labelledby="modalHellboyLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalHellboy" style="justify-self: center;">Hellboy and the B.P.R.D
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-darkhorse/hellboy.jpg" alt=""></div>
+                    <div class="texto1-modal">Hellboy se une a otros agentes de la Oficina en una serie de remotos La
+                        presión aumenta dentro de la oficina para descubrir los planes secretos de los soviéticos, pero
+                        un encubrimiento sospechoso lleva a un agente fuera del radar en busca de respuestas. Mientras
+                        tanto, el líder soviético y oculto soviético Varvara empuja a su equipo a seguir sus propios
+                        caprichos, y Hellboy es enviado a la misión que lo llevó a sus infames desventuras en México.
+                        Pero incluso más agencias ocultas están en funcionamiento, ambas dentro de la B.P.R.D. y fuera.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$200 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-hellboyModal" class="btn btn-primary"
+                            id="liveAlertBtn-hellboyModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Black Hammer -->
+    <div class="modal fade" id="modalBlackhammer" tabindex="-1" aria-labelledby="modalBlackhammerLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBlackhammer" style="justify-self: center;">Black Hammer - Streets
+                        of Spiral
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-darkhorse/blackhammer.jpg" alt=""></div>
+                    <div class="texto1-modal">En 'Black Hammer', seis antiguos superhéroes viven retirados en una granja
+                        junto al típico pueblecito norteamericano. Recuerdan todo aquello que les hizo grandes en Spiral
+                        City, pero no saben cómo pudieron acabar en el campo después de derrotar al Anti-Dios, la
+                        amenaza cósmica más grande que existe. ¿Conseguirán salir o vivirán para siempre la más aburrida
+                        de las existencias?</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$200 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-blackhammerModal" class="btn btn-primary"
+                            id="liveAlertBtn-blackhammerModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Colder -->
+    <div class="modal fade" id="modalColder" tabindex="-1" aria-labelledby="modalColderLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalColder" style="justify-self: center;">Colder
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-darkhorse/colder.jpg" alt="">
+                    </div>
+                    <div class="texto1-modal">Declan Thomas, el antiguo paciente de un manicomio que fue destruido por
+                        un incendio, tiene la extraña habilidad de entrar en la locura de las personas y, a veces,
+                        curarla. Espera poder curar un día su propia locura, pero el tiempo pasa, y un demoníaco
+                        depredador va tras él.</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$180 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-colderModal" class="btn btn-primary"
+                            id="liveAlertBtn-colderModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Lady Killer-->
+    <div class="modal fade" id="modalLadykiller" tabindex="-1" aria-labelledby="modalLadykillerLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLadykiller" style="justify-self: center;">Lady Killer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-darkhorse/ladykiller.jpg" alt="">
+                    </div>
+                    <div class="texto1-modal">La imagen de la perfecta esposa, ama de casa y madre. Pero también es una
+                        implacable asesina. Ha conseguido encontrar el equilibrio perfecto entre el encanto de lo
+                        cotidiano y la emoción de asesinatos planeados al milímetro. Hasta que todo cambia! Descubre una
+                        comedia de humor negro que muestra el algodón de azúcar de los años sesenta como nunca habías
+                        imaginado.</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$190 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-ladykillerModal" class="btn btn-primary"
+                            id="liveAlertBtn-ladykillerModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Polar -->
+    <div class=" modal fade" id="modalPolar" tabindex="-1" aria-labelledby="modalPolarLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalPolarLabel" style="justify-self: center;">
+                        Polar - The Black Kaiser
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-darkhorse/polar.jpg" alt="">
+                    </div>
+                    <div class="texto1-modal">Black Káiser es el asesino más letal del mundo, y alguien quiere su
+                        cabeza. Cuando unos sicarios intentan asesinarlo, lo único que consiguen es morir en sus manos y
+                        encender la mecha de una bomba destinada a estallar en el seno de la agencia de asesinos
+                        Damócles. Solo hay dos finales posibles: o muere él, o mueren ellos.</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$150 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-polarModal" class="btn btn-primary"
+                            id="liveAlertBtn-polarModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Umbrella Academy -->
+    <div class="modal fade" id="modalUmbrella" tabindex="-1" aria-labelledby="modalUmbrellaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalUmbrella" style="justify-self: center;">The Umbrella Academy
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-darkhorse/umbrella.jpg" alt="">
+                    </div>
+                    <div class="texto1-modal">En un año insólito para la humanidad nacieron 43 niños “extraordinarios”.
+                        Todos de madres solteras, sin aparentes muestras de embarazo y en los lugares más extraños. Solo
+                        7 de esos niños fueron salvados de su fatal destino y educados por el magnate Sir Reginald
+                        Hargreeves para controlar sus peculiares poderes. Su objetivo: SALVAR EL MUNDO. </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$200 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-umbrellaModal" class="btn btn-primary"
+                            id="liveAlertBtn-umbrellaModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Subscripcion -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Subscribete a nuestro Newsletter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="FormularioRegistro">
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Nombre</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="direccion-email" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" id="direccion-email" value="@">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tipodesub">Deseo recibir News</label>
+                            <div><input type="radio" id="tipodesub" name="tipodesub" value="semanal"
+                                    checked>Semanalmente</div>
+                            <div><input type="radio" id="tipodesub" name="tipodesub" value="mensual">Mensualmente</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-subsmodal" class="btn btn-primary"
+                            id="liveAlertBtn-subsmodal">Subscribirse</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alerta de añadir al carro -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="text-align: right;">
+        <div id="liveAlertPlaceholder"></div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Import notificaciones -->
+    <script src="../../javascript/prueba.js"></script>
+
+</body>
+
+</html>

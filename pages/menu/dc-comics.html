@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="../../css/pruebacss.css">
+
+    <!-- SEO KEYWORDS -->
+    <meta name="keywords"
+        content="DC comics, dc, comics, batman, flash, constantine, superman, wonder woman, wonder, woman, shazam">
+
+    <!-- Lo que aparece cuando compartis la web -->
+    <meta name="description" content="Los mejores comics de DC Comics">
+
+    <title>DC Comics</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <a href="../../index.html">
+            <div class="logo"></div>
+        </a>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../../index.html">Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../menu/marvel.html">Marvel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../menu/dc-comics.html">DC Comics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../menu/dark-horse.html">Dark Horse</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../menu/image-comics.html">Image Comics</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="categoriasDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categorías
+                                </a>
+                                <ul class="dropdown-menu bg-gray" aria-labelledby="categoriasDropdown">
+                                    <li><a class="dropdown-item" href="../categorias/art-books.html">Art Books</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../categorias/tomos-unicos.html">Tomos
+                                            Únicos</a></li>
+                                    <li><a class="dropdown-item" href="../categorias/series-completas.html">Series
+                                            Completas</a></li>
+                                    <li><a class="dropdown-item" href="../categorias/infantiles.html">Infantiles</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="noticiasDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Noticias
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="noticiasDropdown">
+                                    <li><a class="dropdown-item" href="../noticias/noticia1.html">Invincible nueva
+                                            temporada</a></li>
+                                    <li><a class="dropdown-item" href="../noticias/noticia2.html">Injustice nuevo
+                                            estreno</a></li>
+                                    <li><a class="dropdown-item" href="../noticias/noticia3.html">Marvel - What
+                                            if?</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="fondo-izquierda"></div>
+    <div class="fondo-derecha"></div>
+    <main class="main">
+        <div class="bannerdc">
+        </div>
+        <hr>
+        <section class="seccion1">
+            <div class="flex-container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-dc/batman.jpg">
+                                </a>
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-batman" class="btn btn-primary"
+                                            id="liveAlertBtn-batman">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalBatman" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalBatman">Mas info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Batman</h3>
+                                <div class="price">$200</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-dc/flash.jpg">
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-flash" class="btn btn-primary"
+                                            id="liveAlertBtn-flash">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalFlash" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalFlash">Mas info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Flash</h3>
+                                <div class="price">$200</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-dc/constantine.jpg">
+                                <span class="product-sale-label">Oferta</span>
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-constantine" class="btn btn-primary"
+                                            id="liveAlertBtn-constantine">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalConstantine" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalConstantine">Mas info</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Constantine</h3>
+                                <div class="price"><span>$200</span> $180</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="flex-container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-dc/superman.jpg">
+                                </a>
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-superman" class="btn btn-primary"
+                                            id="liveAlertBtn-superman">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalSuperman" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalSuperman">Mas info</a>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Superman</h3>
+                                <div class="price">$200</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-dc/wonderwoman.jpg">
+                                <span class="product-sale-label">Oferta</span>
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-wonderwoman" class="btn btn-primary"
+                                            id="liveAlertBtn-wonderwoman">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalWonderWoman" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalWonderWoman">Mas info</a>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Wonder Woman</h3>
+                                <div class="price"><span>$230</span> $190</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="product-grid">
+                            <div class="product-image">
+                                <img src="../../public/img/comics-dc/shazam.jpg">
+                                <ul class="product-links">
+                                    <li><a data-target="liveAlertBtn-shazam" class="btn btn-primary"
+                                            id="liveAlertBtn-shazam">Añadir al
+                                            carro</a>
+                                    </li>
+                                    <li>
+                                        <a data-target="modalShazam" data-bs-toggle="modal" class="btn btn-primary"
+                                            href="#modalShazam">Mas info</a>
+                                </ul>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="title">Shazam</h3>
+                                <div class="price">$200</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribete
+            a nuestro Newsletter</button>
+        <div class="social-menu">
+            <h3>Siguenos en nuestras redes sociales</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+
+    <!-- Modal Batman -->
+    <div class="modal fade" id="modalBatman" tabindex="-1" aria-labelledby="modalBatmanLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBatman" style="justify-self: center;">Batman - Caballero
+                        Oscuro
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-dc/batman.jpg" alt=""></div>
+                    <div class="texto1-modal">Amanece un nuevo día en Gotham. Con Bane derrotado y Alfred fallecido, el
+                        Caballero Oscuro afronta la
+                        reconstrucción de la ciudad, ¡y la de su propia cruzada!</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$200 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-batmanModal" class="btn btn-primary"
+                            id="liveAlertBtn-batmanModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Flash -->
+    <div class="modal fade" id="modalFlash" tabindex="-1" aria-labelledby="modalFlashLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalFlash" style="justify-self: center;">Flash - Guerra Flash
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-dc/flash.jpg" alt=""></div>
+                    <div class="texto1-modal">¡FLASH CONTRA FLASH! Las repercusiones del regreso de Wally West alcanzan
+                        un punto de ebullición en Flash vol. 7: Guerra de Flash, mientras los más grandes velocistas del
+                        siglo XXI se enfrentan cara a cara con consecuencias inesperadas.</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$200 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-flashModal" class="btn btn-primary"
+                            id="liveAlertBtn-flashModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Constantine -->
+    <div class="modal fade" id="modalConstantine" tabindex="-1" aria-labelledby="modalConstantineLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalConstantine" style="justify-self: center;">Constantine - Hellblazer
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-dc/constantine.jpg" alt="">
+                    </div>
+                    <div class="texto1-modal">John Constantine lleva muchos años enfrentándose a peligros
+                        sobrenaturales. Así, sabe que la magia tiene un precio muy alto y también que, pase lo que pase,
+                        él siempre sale ganando. El mago más polémico del Universo DC, miembro medular de la Liga de La
+                        Justicia Oscura, se enfrenta en este volumen a la secta de la Llama Fría con los muchos recursos
+                        que tiene a su alcance.</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$180 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-constantineModal" class="btn btn-primary"
+                            id="liveAlertBtn-constantineModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Superman -->
+    <div class="modal fade" id="modalSuperman" tabindex="-1" aria-labelledby="modalSupermanLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalSuperman" style="justify-self: center;">Superman - El año del
+                        villano
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-dc/superman.jpg" alt="">
+                    </div>
+                    <div class="texto1-modal">¡El Año del Villano! Lex Luthor está de vuelta en Metrópolis, ¡y está
+                        listo para sembrar el caos! Primera parada, la mujer más peligrosa del Universo DC: ¡Lois Lane!
+                        Y mientras Superman, Supergirl, Superboy y Jor-El luchan para derrotar al aparentemente
+                        imparable Rogol Zaar, Lex tiene sus propios planes, que conectan a su vez con los sucesos de El
+                        incidente Leviatán: actualizar a Brainiac y hacer una oferta irrechazable a los líderes de los
+                        bajos fondos de la ciudad.</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$200 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-supermanModal" class="btn btn-primary"
+                            id="liveAlertBtn-supermanModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Wonder Woman -->
+    <div class="modal fade" id="modalWonderWoman" tabindex="-1" aria-labelledby="modalWonderWomanLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalWonderWoman" style="justify-self: center;">Wonder Woman -
+                        Renacimiento
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-dc/wonderwoman.jpg" alt="">
+                    </div>
+                    <div class="texto1-modal">Después de una pérdida inimaginable, Wonder Woman debe reconstruir su
+                        cruzada como protectora y campeona de la Tierra. Tras los acontecimientos de La Guerra de
+                        Darkseid y el especial Universo DC: Renacimiento, el lazo de la verdad, la más poderosa arma de
+                        la Mujer Maravilla, ha dejado de funcionar... ¡y oscuros secretos del pasado de las Amazonas
+                        salen a la luz! Greg Rucka, Liam Sharp, Nicola Scott y Matthew Clark construyen una historia
+                        formada por dos arcos argumentales paralelos, que exploran el pasado y el presente de este
+                        icono.</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$190 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-wonderwomanModal" class="btn btn-primary"
+                            id="liveAlertBtn-wonderwomanModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Shazam -->
+    <div class="modal fade" id="modalShazam" tabindex="-1" aria-labelledby="modalShazamLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-l">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalShazam" style="justify-self: center;">Shazam!
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="comic-modal"><img src="../../public/img/comics-dc/shazam.jpg" alt="">
+                    </div>
+                    <div class="texto1-modal">Billy Batson es un chico huérfano de 14 años residente en Philadelphia a
+                        quien el destino le reserva un inesperado desafío: ¡Convertirse en uno de los superhéroes más
+                        poderosos de todos los tiempos! Con la ayuda de su amigo Freddy, poco a poco irá descubriendo el
+                        alcance de sus recién adquiridos poderes... ¿Cómo obtuvo sus habilidades? ¿Qué retos tendrá que
+                        afrontar? Basado en la película ¡Shazam!, este divertido y trepidante libro ilustrado relata el
+                        origen del héroe del momento.</div>
+                </div>
+                <div class="modal-footer">
+                    <div class="modal-valor">$200 ARS </div>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-shazamModal" class="btn btn-primary"
+                            id="liveAlertBtn-shazamModal">Añadir al
+                            carro</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Subscripcion -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Subscribete a nuestro Newsletter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="FormularioRegistro">
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Nombre</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="direccion-email" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" id="direccion-email" value="@">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tipodesub">Deseo recibir News</label>
+                            <div><input type="radio" id="tipodesub" name="tipodesub" value="semanal"
+                                    checked>Semanalmente</div>
+                            <div><input type="radio" id="tipodesub" name="tipodesub" value="mensual">Mensualmente</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a
+                            data-target="liveAlertBtn-subsmodal" class="btn btn-primary"
+                            id="liveAlertBtn-subsmodal">Subscribirse</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alerta de añadir al carro -->
+
+    <div class="position-fixed bottom-0 end-0 p-3" style="text-align: right;">
+        <div id="liveAlertPlaceholder"></div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Import notificaciones -->
+    <script src="../../javascript/prueba.js"></script>
+
+</body>
+
+</html>

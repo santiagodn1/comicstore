@@ -1,0 +1,725 @@
+.imagenavatar {
+  grid-area: imagenavatar;
+  margin: 40px 10px 0px 10px;
+  width: 300px;
+  height: 450px;
+  margin: 40px 5px 0px 5px;
+  background-image: url("../public/img/categorias/avatarmobile.jpg");
+  border: 1px solid black;
+  background-position: center center;
+  justify-self: center; }
+
+.imagenradiant {
+  grid-area: imagenradiant;
+  margin: 40px 10px 0px 10px;
+  width: 300px;
+  height: 450px;
+  margin: 40px 5px 0px 5px;
+  background-image: url("../public/img/categorias/radiantblackmobile.jpg");
+  border: 1px solid black;
+  background-position: center center;
+  justify-self: center; }
+
+.imagendc {
+  grid-area: imagendc;
+  width: 300px;
+  height: 350px;
+  margin: 40px 5px 0px 5px;
+  background-image: url("../public/img/categorias/super-villiansmobile.jpg");
+  border: 1px solid black;
+  justify-self: center; }
+
+.imagenspidermangame {
+  grid-area: imagenspidermangame;
+  width: 300px;
+  height: 350px;
+  margin: 40px 5px 0px 5px;
+  background-image: url("../public/img/categorias/spidermangamemobile.jpg");
+  border: 1px solid black;
+  justify-self: center; }
+
+.imagenbatmancaballero {
+  grid-area: imagenbatmancaballero;
+  width: 300px;
+  height: 350px;
+  margin: 40px 5px 0px 5px;
+  background-image: url("../public/img/categorias/batmancaballeromobile.jpg");
+  border: 1px solid black;
+  justify-self: center; }
+
+.imagenconvergencia {
+  grid-area: imagenconvergencia;
+  width: 300px;
+  height: 350px;
+  margin: 40px 5px 0px 5px;
+  background-image: url("../public/img/categorias/convergenciamobile.jpg");
+  border: 1px solid black;
+  justify-self: center; }
+
+.imagenteentitans {
+  grid-area: imagenteentitans;
+  width: 300px;
+  height: 460px;
+  margin: 40px 5px 0px 5px;
+  background-image: url("../public/img/categorias/teentitansmobile.jpg");
+  border: 1px solid black;
+  justify-self: center; }
+
+.imagenbatmanbaticueva {
+  grid-area: imagenbatmanbaticueva;
+  width: 300px;
+  height: 350px;
+  margin: 40px 5px 0px 5px;
+  background-image: url("../public/img/categorias/batmanbaticuevamobile.jpg");
+  border: 1px solid black;
+  justify-self: center; }
+
+.descripcion1 {
+  grid-area: descripcion1;
+  display: none; }
+
+.descripcion2 {
+  grid-area: descripcion2;
+  display: none; }
+
+@media only screen and (min-width: 768px) {
+  .body-categorias {
+    display: grid;
+    grid-template-columns: 5fr 10fr 5fr;
+    grid-template-rows: 0.1fr 10fr 0.1fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "fondo-izquierda categoria-header fondo-derecha" "fondo-izquierda categoria-main fondo-derecha" "fondo-izquierda categoria-footer fondo-derecha"; }
+  .categoria-header {
+    grid-area: categoria-header; }
+  .categoria-main {
+    grid-area: categoria-main; }
+  .categoria-footer {
+    grid-area: categoria-footer; }
+  .fondo-izquierda {
+    grid-area: fondo-izquierda;
+    background: linear-gradient(90deg, #d7d7d7 0%, #d7d7d7 97%, #737373 100%); }
+  .fondo-derecha {
+    grid-area: fondo-derecha;
+    background: linear-gradient(90deg, #737373 0%, #d7d7d7 3%, #d7d7d7 100%); }
+  .container-seriesCompletas {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "imagenradiant" "descripcion1" "compra-y-boton1" "imagenavatar" "descripcion2" "compra-y-boton2"; }
+  .container-artbooks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "imagendc" "descripcion1" "compra-y-boton1" "imagenspidermangame" "descripcion2" "compra-y-boton2"; }
+  .container-tomosunicos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "imagenbatmancaballero" "descripcion1" "compra-y-boton1" "imagenconvergencia" "descripcion2" "compra-y-boton2"; }
+  .container-infantiles {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
+    gap: 3px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "imagenteentitans" "descripcion1" "compra-y-boton1" "imagenbatmanbaticueva" "descripcion2" "compra-y-boton2"; }
+  .imagenradiant {
+    grid-area: imagenradiant;
+    width: 920px;
+    height: 300px;
+    margin: 40px 10px 0px 10px;
+    background-image: url("../public/img/categorias/radiantblack.jpg");
+    border: 1px solid black;
+    justify-self: center; }
+  .imagendc {
+    grid-area: imagendc;
+    width: 920px;
+    height: 300px;
+    margin: 40px 10px 0px 10px;
+    background-image: url("../public/img/categorias/super-villians.jpg");
+    border: 1px solid black;
+    justify-self: center; }
+  .imagenspidermangame {
+    grid-area: imagenspidermangame;
+    width: 920px;
+    height: 300px;
+    margin: 40px 5px 0px 5px;
+    background-image: url("../public/img/categorias/spidermangame.jpg");
+    border: 1px solid black;
+    justify-self: center; }
+  .imagenbatmancaballero {
+    grid-area: imagenbatmancaballero;
+    width: 920px;
+    height: 300px;
+    margin: 40px 5px 0px 5px;
+    background-image: url("../public/img/categorias/batmancaballero.png");
+    border: 1px solid black;
+    justify-items: center; }
+  .imagenconvergencia {
+    grid-area: imagenconvergencia;
+    width: 920px;
+    height: 300px;
+    margin: 40px 5px 0px 5px;
+    background-image: url("../public/img/categorias/convergencia.jpg");
+    border: 1px solid black;
+    justify-self: center; }
+  .imagenteentitans {
+    grid-area: imagenteentitans;
+    width: 920px;
+    height: 400px;
+    margin: 40px 5px 0px 5px;
+    background-image: url("../public/img/categorias/teentitans.jpg");
+    border: 1px solid black;
+    justify-self: center; }
+  .imagenbatmanbaticueva {
+    grid-area: imagenbatmanbaticueva;
+    width: 920px;
+    height: 300px;
+    margin: 40px 5px 0px 5px;
+    background-image: url("../public/img/categorias/batmanbaticueva.jpg");
+    border: 1px solid black;
+    justify-items: center; }
+  .descripcion1 {
+    grid-area: descripcion1;
+    display: block; }
+  .compra-y-boton1 {
+    grid-area: compra-y-boton1; }
+  .imagenavatar {
+    grid-area: imagenavatar;
+    margin: 40px 10px 0px 10px;
+    width: 920px;
+    height: 288px;
+    margin: 40px 10px 0px 10px;
+    background-image: url("../public/img/categorias/avatar.jpg");
+    border: 1px solid black;
+    justify-self: center; }
+  .descripcion2 {
+    grid-area: descripcion2;
+    display: block; }
+  .compra-y-boton2 {
+    grid-area: compra-y-boton2; }
+  .fondo-izquierda {
+    grid-area: fondo-izquierda;
+    background: linear-gradient(90deg, #d7d7d7 0%, #d7d7d7 97%, #737373 100%); }
+  .fondo-derecha {
+    grid-area: fondo-derecha;
+    background: linear-gradient(90deg, #737373 0%, #d7d7d7 3%, #d7d7d7 100%); } }
+
+* {
+  font-family: 'Arimo', sans-serif; }
+
+.html {
+  text-align: center;
+  margin: 0px 5px 0px 5px; }
+
+.header {
+  background-color: black; }
+
+li {
+  list-style-type: none;
+  display: inline; }
+
+.submenu {
+  font-weight: 900;
+  font-size: 30px; }
+
+.logo {
+  width: 191px;
+  height: 204px;
+  background-color: black;
+  background-image: url("../public/img/logo-mobile.JPG");
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100%; }
+
+.btn-primary {
+  border: 0px;
+  text-decoration: underline; }
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: red;
+  border-color: red;
+  box-shadow: 0 0 0 0rem rgba(253, 49, 49, 0.5); }
+
+@media only screen and (min-width: 768px) {
+  .body {
+    display: grid;
+    grid-template-columns: 5fr 10fr 5fr;
+    grid-template-rows: 0.1fr 1fr 1fr 1fr 0.1fr;
+    gap: 0px 0px;
+    grid-template-areas: "fondo-izquierda header fondo-derecha" "fondo-izquierda main fondo-derecha" "fondo-izquierda main fondo-derecha" "fondo-izquierda main fondo-derecha" "fondo-izquierda footer fondo-derecha"; }
+  .body-main {
+    display: grid;
+    grid-template-columns: 5fr 10fr 5fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    gap: 0px 0px;
+    grid-template-areas: "fondo-izquierda header fondo-derecha" "fondo-izquierda main fondo-derecha" "fondo-izquierda footer fondo-derecha"; }
+  .header {
+    grid-area: header; }
+  .main {
+    grid-area: main;
+    justify-content: center; }
+  .footer {
+    grid-area: footer; }
+  .fondo-izquierda {
+    grid-area: fondo-izquierda;
+    background: linear-gradient(90deg, #d7d7d7 0%, #d7d7d7 97%, #737373 100%); }
+  .fondo-derecha {
+    grid-area: fondo-derecha;
+    background: linear-gradient(90deg, #737373 0%, #d7d7d7 3%, #d7d7d7 100%); }
+  .logo {
+    width: 377px;
+    height: 102px;
+    background-image: url("../public/img/logo.JPG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width: 100%; }
+  nav ul {
+    justify-content: center;
+    justify-items: center;
+    display: flex; } }
+
+/* == Bootstrap ==*/
+.product-grid {
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  margin-top: 40px; }
+
+.product-grid .product-image {
+  position: relative; }
+
+.product-grid .product-image a.image {
+  display: block; }
+
+.product-grid .product-image img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s ease 0s; }
+
+.row {
+  justify-content: space-evenly;
+  gap: 10px; }
+
+.product-grid .product-sale-label {
+  color: #fff;
+  background: brown;
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 35px;
+  width: 55px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.product-grid .product-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  bottom: 15px;
+  transition: all 0.3s ease 0s; }
+
+.product-grid:hover .product-links {
+  opacity: 1; }
+
+.product-grid .product-links li {
+  border: 0px;
+  margin: 0 0 5px;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 0.3s ease 0s; }
+
+.product-grid:hover .product-links li {
+  opacity: 1;
+  transform: translateX(0); }
+
+.product-grid .product-links li a {
+  color: #fff;
+  background-color: brown;
+  font-size: 30px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+  padding: 10px 10px;
+  display: block;
+  opacity: 0.9;
+  transition: all 0.3s ease 0s;
+  text-align: left; }
+
+.product-grid .product-links li a:hover {
+  color: #fff;
+  box-shadow: 0 0 0 3px #fff inset;
+  opacity: 1; }
+
+.product-grid .product-links li a i {
+  margin: 0 px 0 0; }
+
+.product-grid .product-content {
+  padding: 15px 0 5px; }
+
+.product-grid .title {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 0 10px 14px;
+  margin: 0 0 7px;
+  border-bottom: 1px solid #dfe5e9; }
+
+.product-grid .title a {
+  color: #000;
+  transition: all 0.3s ease 0s; }
+
+.product-grid .price {
+  color: brown;
+  font-size: 20px;
+  font-weight: 400; }
+
+.product-grid .price span {
+  color: #999;
+  text-decoration: line-through;
+  margin: 0 3px 0 0; }
+
+.main-noticia {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.4fr 0.2fr 0fr;
+  gap: 0px 0px;
+  grid-template-areas: "banner-noticia" "imagen-noticia" "texto-noticia" "texto2-noticia"; }
+
+.banner-noticia {
+  grid-area: banner-noticia;
+  border: 1px black solid;
+  margin: 10px;
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); }
+
+.imagen-noticia {
+  grid-area: imagen-noticia; }
+  .imagen-noticia img {
+    width: 200px;
+    height: 300px;
+    justify-items: center;
+    align-items: center; }
+
+.texto-noticia {
+  grid-area: texto-noticia; }
+
+.texto2-noticia {
+  grid-area: texto2-noticia;
+  display: none; }
+
+@media only screen and (min-width: 1441px) {
+  .main-noticia {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.2fr;
+    gap: 0px 0px;
+    grid-template-areas: "banner-noticia banner-noticia" "imagen-noticia texto-noticia" "texto2-noticia texto2-noticia"; }
+  .banner-noticia {
+    grid-area: banner-noticia;
+    border: 1px black solid;
+    margin: 10px;
+    font-size: 30px;
+    background-color: brown;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); }
+  .texto-noticia {
+    grid-area: texto-noticia;
+    font-size: 30px;
+    text-align: left;
+    align-self: center;
+    justify-self: center; }
+  .texto2-noticia {
+    grid-area: texto2-noticia;
+    display: block;
+    font-size: 25px; }
+  .fondo-izquierda {
+    grid-area: fondo-izquierda;
+    background: linear-gradient(90deg, #d7d7d7 0%, #d7d7d7 97%, #737373 100%); }
+  .fondo-derecha {
+    grid-area: fondo-derecha;
+    background: linear-gradient(90deg, #737373 0%, #d7d7d7 3%, #d7d7d7 100%); } }
+
+/* === INICIO MENU ===*/
+nav {
+  background: #555; }
+  nav ul {
+    list-style-type: none;
+    padding: 0; }
+  nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px; }
+  nav a:hover {
+    background-color: brown; }
+
+/* === FIN MENU === */
+/* === INICIO NUEVOS ESTRENOS === */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 100px;
+  justify-content: space-evenly;
+  /*justify-content: center;*/
+  /*align-items: center;*/ }
+  .flex-container li {
+    border: 1px solid black;
+    background-color: burlywood; }
+
+/* === FIN NUEVOS ESTRENOS === */
+/* === INICIO BANNERS === */
+.grid-container-banners {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 5px;
+  justify-self: center; }
+  .grid-container-banners a {
+    justify-self: center; }
+
+.artbook {
+  width: 120px;
+  height: 120px;
+  background-image: url("../public/img/banners/mobile/banner-artbook-mobile.jpg");
+  transition: 0.25s;
+  border: 1px solid black;
+  justify-self: center; }
+
+.tomounico {
+  width: 120px;
+  height: 120px;
+  background-image: url("../public/img/banners/mobile/banner-tomo-mobile.jpg");
+  transition: 0.25s;
+  border: 1px solid black;
+  justify-self: center; }
+
+.seriescompletas {
+  width: 120px;
+  height: 120px;
+  background-image: url("../public/img/banners/mobile/banner-series-mobile.jpg");
+  transition: 0.25s;
+  border: 1px solid black;
+  justify-self: center; }
+
+.infantiles {
+  width: 120px;
+  height: 120px;
+  background-image: url("../public/img/banners/mobile/banner-infantiles-mobile.jpg");
+  transition: 0.25s;
+  border: 1px solid black;
+  justify-self: center; }
+
+/* === FIN BANNERS === */
+/* === INICIO NOTICIAS === */
+.grid-container-noticias {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 0px;
+  gap: 0px 0px;
+  grid-template-areas: "video" "noticia"; }
+
+.video {
+  grid-area: video; }
+
+.noticia {
+  grid-area: noticia; }
+
+/* === FIN NOTICIAS === */
+@media only screen and (min-width: 768px) {
+  /* === INICIO NUEVOS ESTRENOS === */
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    justify-content: space-evenly;
+    column-gap: 80px; }
+  .product-grid .product-links li a {
+    color: #fff;
+    background-color: brown;
+    font-size: 20px;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    padding: 1px 10px;
+    display: block;
+    opacity: 0.9;
+    transition: all 0.3s ease 0s; }
+  /* === FIN NUEVOS ESTRENOS === */
+  /* === INICIO BANNERS === */
+  .grid-container-banners {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; }
+  .artbook {
+    width: 620px;
+    height: 120px;
+    background-image: url("../public/img/banners/banner-artbook.jpg");
+    opacity: 0.75;
+    transition: 0.25s;
+    font-size: 0; }
+  .artbook:hover {
+    background-image: url("../public/img/banners/banners-texto/banner-artbook-texto.jpg");
+    transform: scale(1.02, 1);
+    opacity: 1; }
+  .tomounico {
+    width: 620px;
+    height: 120px;
+    background-image: url("../public/img/banners/banner-tomo.jpg");
+    opacity: 0.75;
+    transition: 0.25s;
+    font-size: 0; }
+  .tomounico:hover {
+    background-image: url("../public/img/banners/banners-texto/banner-tomo-texto.jpg");
+    transform: scale(1.02, 1);
+    opacity: 1; }
+  .seriescompletas {
+    width: 620px;
+    height: 120px;
+    background-image: url("../public/img/banners/banner-series.jpg");
+    opacity: 0.75;
+    transition: 0.25s;
+    font-size: 0; }
+  .seriescompletas:hover {
+    background-image: url("../public/img/banners/banners-texto/banner-series-texto.jpg");
+    transform: scale(1.02, 1);
+    opacity: 1; }
+  .infantiles {
+    width: 620px;
+    height: 120px;
+    background-image: url("../public/img/banners/banner-infantiles.jpg");
+    opacity: 0.75;
+    transition: 0.25s;
+    font-size: 0; }
+  .infantiles:hover {
+    background-image: url("../public/img/banners/banners-texto/banner-infantiles-texto.jpg");
+    transform: scale(1.02, 1);
+    opacity: 1; }
+  .bannerdc {
+    background-image: url("../public/img/banners/bannerdc.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 225px;
+    min-width: 100%;
+    margin-top: 15px; }
+  .bannermarvel {
+    background-image: url("../public/img/banners/bannermarvel.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 225px;
+    min-width: 100%;
+    margin-top: 15px; }
+  .bannerimage {
+    background-image: url("../public/img/banners/bannerimage.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 225px;
+    min-width: 100%;
+    margin-top: 15px; }
+  .bannerdarkhorse {
+    background-image: url("../public/img/banners/bannerdarkhorse.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 225px;
+    min-width: 100%;
+    margin-top: 15px; }
+  /* === FIN BANNERS === */
+  /* === INICIO NOTICIAS === */
+  .grid-container-noticias {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    gap: 0px 0px;
+    grid-template-areas: "video noticia"; }
+  .video {
+    grid-area: video;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .noticia {
+    grid-area: noticia;
+    display: inline-grid;
+    justify-items: center;
+    align-items: center; }
+    .noticia a {
+      justify-self: right; }
+  .imagen-noticia img {
+    margin-top: 50px;
+    width: 342px;
+    height: 407px;
+    justify-items: center;
+    align-items: center; } }
+
+.social-menu ul {
+  position: block;
+  justify-content: center;
+  justify-items: center;
+  left: 50%;
+  padding: 0;
+  margin: 0px 0px 30px 0px;
+  display: flex; }
+  .social-menu ul li {
+    list-style: none;
+    margin: 0 5px; }
+    .social-menu ul li .fa {
+      color: #000000;
+      font-size: 25px;
+      line-height: 50px;
+      transition: .5s; }
+    .social-menu ul li a {
+      position: relative;
+      display: block;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      text-align: center;
+      transition: 0.5s;
+      transform: translate(0, 0px);
+      box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5); }
+
+.social-menu ul li .fa:hover {
+  color: #ffffff; }
+
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px); }
+
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999; }
+
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee; }
+
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f; }
+
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f; }
+
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #0077B5; }

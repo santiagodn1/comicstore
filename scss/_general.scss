@@ -1,0 +1,98 @@
+*{
+    font-family: 'Arimo', sans-serif;
+}
+.html{
+    text-align: center;
+    margin: 0px 5px 0px 5px;
+}
+
+.header{
+    background-color: black;
+}
+li{
+    list-style-type: none;
+    display: inline;
+
+}
+
+.submenu{
+    font-weight: 900;
+    font-size:30px;
+}
+
+.logo{
+    width: 191px;
+    height: 204px;
+    background-color: black;
+    background-image: url("../public/img/logo-mobile.JPG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-width:100%;
+}
+
+
+.btn-primary{
+    border: 0px;
+    text-decoration: underline;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    box-shadow: 0 0 0 0rem rgba(253, 49, 49, 0.5);
+}
+
+
+
+@media only screen and (min-width:768px){
+
+    .body{
+        display: grid; 
+        grid-template-columns: 5fr 10fr 5fr; 
+        grid-template-rows: 0.1fr 1fr 1fr 1fr 0.1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        "fondo-izquierda header fondo-derecha"
+        "fondo-izquierda main fondo-derecha"
+        "fondo-izquierda main fondo-derecha"
+        "fondo-izquierda main fondo-derecha"
+        "fondo-izquierda footer fondo-derecha"; 
+    }
+    .body-main{
+        display: grid; 
+        grid-template-columns: 5fr 10fr 5fr; 
+        grid-template-rows: 0.1fr 1fr 0.1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        "fondo-izquierda header fondo-derecha"
+        "fondo-izquierda main fondo-derecha"
+        "fondo-izquierda footer fondo-derecha"; 
+    }
+    .header { grid-area: header; }
+    .main { grid-area: main; 
+    justify-content: center;}
+    .footer { grid-area: footer; }
+
+    .fondo-izquierda { grid-area: fondo-izquierda; 
+        background: linear-gradient(90deg, rgba(215,215,215,1) 0%, rgba(215,215,215,1) 97%, rgba(115,115,115,1) 100%);}
+    .fondo-derecha {grid-area: fondo-derecha;
+        background: linear-gradient(90deg, rgba(115,115,115,1) 0%, rgba(215,215,215,1) 3%, rgba(215,215,215,1) 100%);}
+
+    .logo{
+        width: 377px;
+        height: 102px;
+        background-image: url("../public/img/logo.JPG");
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-width:100%;
+    }
+
+    nav{
+        ul{
+            justify-content: center;
+            justify-items: center;
+            display: flex;
+        }
+    }
+}
