@@ -1,23 +1,19 @@
 
   .imagenavatar { grid-area: imagenavatar; 
-    margin: 40px 10px 0px 10px; 
     width: 300px;
     height: 450px;
     margin: 40px 5px 0px 5px; 
     background-image: url("../public/img/categorias/avatarmobile.jpg");
     border: 1px solid black;
-    background-position: center center;
-    justify-self: center;}
+    margin: 20px auto;}
 
-  .imagenradiant { grid-area: imagenradiant; 
-    margin: 40px 10px 0px 10px; 
+  .imagenradiant { grid-area: imagenradiant;  
     width: 300px;
     height: 450px;
     margin: 40px 5px 0px 5px; 
     background-image: url("../public/img/categorias/radiantblackmobile.jpg");
     border: 1px solid black;
-    background-position: center center;
-    justify-self: center;}
+    margin: 20px auto;}
 
   .imagendc { grid-area: imagendc; 
     width: 300px;
@@ -25,7 +21,7 @@
     margin: 40px 5px 0px 5px; 
     background-image: url("../public/img/categorias/super-villiansmobile.jpg");
     border: 1px solid black;
-    justify-self: center;}
+    margin: 20px auto;}
 
   .imagenspidermangame { grid-area: imagenspidermangame; 
     width: 300px;
@@ -33,7 +29,7 @@
     margin: 40px 5px 0px 5px; 
     background-image: url("../public/img/categorias/spidermangamemobile.jpg");
     border: 1px solid black;
-    justify-self: center;}
+    margin: 20px auto;}
 
   .imagenbatmancaballero { grid-area: imagenbatmancaballero; 
     width: 300px;
@@ -41,7 +37,7 @@
     margin: 40px 5px 0px 5px; 
     background-image: url("../public/img/categorias/batmancaballeromobile.jpg");
     border: 1px solid black;
-    justify-self: center;}
+    margin: 20px auto;}
 
   .imagenconvergencia { grid-area: imagenconvergencia; 
     width: 300px;
@@ -49,7 +45,7 @@
     margin: 40px 5px 0px 5px; 
     background-image: url("../public/img/categorias/convergenciamobile.jpg");
     border: 1px solid black;
-    justify-self: center;}
+    margin: 20px auto;}
 
   .imagenteentitans { grid-area: imagenteentitans; 
     width: 300px;
@@ -57,7 +53,7 @@
     margin: 40px 5px 0px 5px; 
     background-image: url("../public/img/categorias/teentitansmobile.jpg");
     border: 1px solid black;
-    justify-self: center;}
+    margin: 20px auto;}
 
   .imagenbatmanbaticueva { grid-area: imagenbatmanbaticueva; 
     width: 300px;
@@ -65,7 +61,7 @@
     margin: 40px 5px 0px 5px; 
     background-image: url("../public/img/categorias/batmanbaticuevamobile.jpg");
     border: 1px solid black;
-    justify-self: center;}
+    margin: 20px auto;}
 
   .descripcion1 { grid-area: descripcion1; 
   display:none;}
