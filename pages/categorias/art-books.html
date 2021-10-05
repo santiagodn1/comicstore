@@ -18,6 +18,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Estilo CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/pruebacss.css">
 
     <!-- SEO KEYWORDS -->
@@ -103,10 +104,11 @@
         <div class="container-artbooks">
             <div class="fondo-izquierda"></div>
             <div class="fondo-derecha"></div>
-            <div class="imagendc"></div>
-            <div class="descripcion1">
-                <h1>DC Comics: Supervillanos</h1>
-                <h5>Como todo fan de cómics, un superhéro no es nada sin un enemigo digno de combatir. Para cada Batman
+            <div data-aos="fade-up" class="imagendc"></div>
+            <div data-aos="fade-up" class="descripcion1">
+                <h1 data-aos="fade-up">DC Comics: Supervillanos</h1>
+                <h5 data-aos="fade-up">Como todo fan de cómics, un superhéro no es nada sin un enemigo digno de
+                    combatir. Para cada Batman
                     debe haber un supervillano como el Joker y para cada Superman, un Lex Luthor.
 
                     Esta edición de lujo celebra casi 80 años de atractivos personajes corruptos que forman la notable
@@ -115,13 +117,13 @@
                     entrevistas nuevas con aclamados escritores y artistas como Jim Lee, Mike Carlin, Dan DiDio, y Chuck
                     Dixon.</h5>
             </div>
-            <div class="compra-y-boton1">
+            <div data-aos="fade-up" class="compra-y-boton1">
                 <h3>Artbook + Historia Visual</h3>
                 <h4>$2.500 ARS</h4>
                 <button type="button" class="btn btn-primary btn-lg">Añadir al Carro</button>
             </div>
-            <div class="imagenspidermangame"></div>
-            <div class="descripcion2">
+            <div data-aos="fade-up" class="imagenspidermangame"></div>
+            <div data-aos="fade-up" class="descripcion2">
                 <h1>Marvel's Spider-man - The Art Of The Game</h1>
                 <h5>Una mirada única del detrás de escena, en la creación de Marvel's Spider-Man.
                     Los mundos de Peter Parker y Spider-Man coinciden, en este videojuego exclusivo de PS4. Marvel's
@@ -130,7 +132,7 @@
                     villanos contra los que lucha. Este libro revela el proceso creativo de los talentosos
                     desarrolladores, artistas y diseñadores, que dan vida al mundo de Spider-Man.</h5>
             </div>
-            <div class="compra-y-boton2">
+            <div data-aos="fade-up" class="compra-y-boton2">
                 <h3>ArtBook</h3>
                 <h4>$2.100 ARS</h4>
                 <button type="button" class="btn btn-primary btn-lg">Añadir al Carro</button>
@@ -140,7 +142,8 @@
 
     <footer class="categoria-footer">
         <hr>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribete
+        <button data-aos="zoom-in" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Subscribete
             a nuestro Newsletter</button>
         <div class="social-menu">
             <h3>Siguenos en nuestras redes sociales</h3>
@@ -203,6 +206,12 @@
 
     <!-- Import notificaciones -->
     <script src="../../javascript/prueba.js"></script>
+
+    <!-- Import AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

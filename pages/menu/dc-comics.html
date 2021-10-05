@@ -18,6 +18,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Estilo CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/pruebacss.css">
 
     <!-- SEO KEYWORDS -->
@@ -103,7 +104,7 @@
         <section class="seccion1">
             <div class="flex-container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                    <div data-aos="fade-up" class="col-md-3 col-sm-6">
                         <div class="product-grid">
                             <div class="product-image">
                                 <img src="../../public/img/comics-dc/batman.jpg">
@@ -125,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div data-aos="fade-up" data-aos-delay="300" class="col-md-3 col-sm-6">
                         <div class="product-grid">
                             <div class="product-image">
                                 <img src="../../public/img/comics-dc/flash.jpg">
@@ -146,7 +147,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div data-aos="fade-up" data-aos-delay="600" class="col-md-3 col-sm-6">
                         <div class="product-grid">
                             <div class="product-image">
                                 <img src="../../public/img/comics-dc/constantine.jpg">
@@ -174,7 +175,7 @@
         <section class="seccion2">
             <div class="flex-container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                    <div data-aos="fade-up" class="col-md-3 col-sm-6">
                         <div class="product-grid">
                             <div class="product-image">
                                 <img src="../../public/img/comics-dc/superman.jpg">
@@ -195,7 +196,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div data-aos="fade-up" data-aos-delay="300" class="col-md-3 col-sm-6">
                         <div class="product-grid">
                             <div class="product-image">
                                 <img src="../../public/img/comics-dc/wonderwoman.jpg">
@@ -216,7 +217,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div data-aos="fade-up" data-aos-delay="600" class="col-md-3 col-sm-6">
                         <div class="product-grid">
                             <div class="product-image">
                                 <img src="../../public/img/comics-dc/shazam.jpg">
@@ -243,7 +244,8 @@
 
     <footer class="footer">
         <hr>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribete
+        <button data-aos="zoom-in" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Subscribete
             a nuestro Newsletter</button>
         <div class="social-menu">
             <h3>Siguenos en nuestras redes sociales</h3>
@@ -486,6 +488,11 @@
     <!-- Import notificaciones -->
     <script src="../../javascript/prueba.js"></script>
 
+    <!-- Import AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

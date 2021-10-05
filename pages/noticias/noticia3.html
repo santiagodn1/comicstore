@@ -13,12 +13,14 @@
 
 
     <!-- Bootstrap -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Estilo CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/pruebacss.css">
 
     <!-- SEO KEYWORDS -->
@@ -99,15 +101,16 @@
     <div class="fondo-derecha"></div>
     <main class="main">
         <div class="main-noticia">
-            <h1 class=banner-noticia>
+            <h1 data-aos="fade-up" class=banner-noticia>
                 Basada en el universo de Marvel, “What If…?” mostrará algunas historias alternativas de muchos de los
                 personajes más conocidos.
             </h1>
-            <div class="imagen-noticia">
+            <div data-aos="fade-up" class="imagen-noticia">
                 <img src="../../public/img/noticias/what-if-portada.jpg" alt="">
             </div>
             <div class="texto-noticia">
-                <p>"What If..." es la nueva serie de Marvel Studios, que le da un gran giro a su Universo
+                <p data-aos="fade-up">"What If..." es la nueva serie de Marvel Studios, que le da un gran giro a su
+                    Universo
                     Cinematográfico,
                     reimaginando los sucesos de las películas de formas inesperadas. Creando un multiverso de infinitas
                     posibilidades, cuenta con la participación de distintos personajes del MCU como Peggy Carter,
@@ -115,7 +118,8 @@
                     próximo 11 de agosto.</p>
             </div>
             <div class="texto2-noticia">
-                <p>Basada en el universo de Marvel, “What If…?” mostrará algunas historias alternativas de muchos de los
+                <p data-aos="fade-up">Basada en el universo de Marvel, “What If…?” mostrará algunas historias
+                    alternativas de muchos de los
                     personajes más conocidos. El primer episodio se estrenará el 11 de agosto y será la primera serie
                     animada basada en la versión moderna de los héroes de Marvel que ya tiene más de una década.</p>
             </div>
@@ -124,7 +128,8 @@
 
     <footer class="footer">
         <hr>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribete
+        <button data-aos="zoom-in" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Subscribete
             a nuestro Newsletter</button>
         <div class="social-menu">
             <h3>Siguenos en nuestras redes sociales</h3>
@@ -188,6 +193,11 @@
     <!-- Import notificaciones -->
     <script src="../../javascript/prueba.js"></script>
 
+    <!-- Import AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

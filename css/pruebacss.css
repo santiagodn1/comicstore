@@ -154,7 +154,7 @@
     grid-area: imagenbatmancaballero;
     width: 920px;
     height: 300px;
-    margin: 40px 5px 0px 5px;
+    margin: 40px 15px 0px 15px;
     background-image: url("../public/img/categorias/batmancaballero.png");
     border: 1px solid black;
     justify-items: center; }
@@ -178,7 +178,7 @@
     grid-area: imagenbatmanbaticueva;
     width: 920px;
     height: 300px;
-    margin: 40px 5px 0px 5px;
+    margin: 40px 15px 0px 15px;
     background-image: url("../public/img/categorias/batmanbaticueva.jpg");
     border: 1px solid black;
     justify-items: center; }

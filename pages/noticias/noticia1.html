@@ -20,6 +20,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Estilo CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/pruebacss.css">
 
     <!-- SEO KEYWORDS -->
@@ -99,26 +100,29 @@
     <div class="fondo-derecha"></div>
     <main class="main">
         <div class="main-noticia">
-            <h1 class=banner-noticia>
+            <h1 data-aos="fade-up" class=banner-noticia>
                 Invincible contará con, por lo menos, 2 temporadas más.
             </h1>
-            <div class="imagen-noticia">
+            <div data-aos="fade-up" class="imagen-noticia">
                 <img src="../../public/img/noticias/noticia-twitter.JPG" alt="">
             </div>
             <div class="texto-noticia">
-                <p>Invincible, serie exclusiva de Amazon Prime Video ha sido un éxito total, y de las más vistas en la
+                <p data-aos="fade-up">Invincible, serie exclusiva de Amazon Prime Video ha sido un éxito total, y de las
+                    más vistas en la
                     plataforma. Debido a la gran recepción que tuvo esta adaptación del cómic del mismo nombre, Amazon
                     confirmó que renovarán la serie para una 2ª y 3ª temporada.</p>
-                <p style="font-style: italic;">La noticia se dio a conocer por la cuenta oficial de Twitter de la serie,
+                <p data-aos="fade-up" style="font-style: italic;">La noticia se dio a conocer por la cuenta oficial de
+                    Twitter de la serie,
                     en donde confirmaron la
                     renovación por 2 temporadas más.</p>
             </div>
             <div class="texto2-noticia">
-                <p>El autor de la obra original, Robert Kirkman declaró </p>
-                <p style="font-style: italic;">“estoy extremadamente agradecido con Amazon por
+                <p data-aos="fade-up">El autor de la obra original, Robert Kirkman declaró </p>
+                <p data-aos="fade-up" style="font-style: italic;">“estoy extremadamente agradecido con Amazon por
                     el apoyo y la dedicación que han puesto detrás de Invincible (…), estamos muy emocionados por poder
                     continuar con esta historia durante al menos 2 temporadas más”.</p>
-                <p>La serie nos introduce a Mark Grayson, hijo del superhéroe conocido como Omni-Man, y el cual descubre
+                <p data-aos="fade-up">La serie nos introduce a Mark Grayson, hijo del superhéroe conocido como Omni-Man,
+                    y el cual descubre
                     que tiene poderes y decide aventurarse a ser un héroe inspirado principalmente por su padre. Sin
                     embargo, en su travesía se dará cuenta de las verdaderas responsabilidades y repercusiones que tiene
                     ser superhéroe, además aprenderá que quien menos lo espera, podría llegar a traicionarlo.
@@ -135,7 +139,8 @@
 
     <footer class="footer">
         <hr>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribete
+        <button data-aos="zoom-in" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Subscribete
             a nuestro Newsletter</button>
         <div class="social-menu">
             <h3>Siguenos en nuestras redes sociales</h3>
@@ -199,6 +204,11 @@
     <!-- Import notificaciones -->
     <script src="../../javascript/prueba.js"></script>
 
+    <!-- Import AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

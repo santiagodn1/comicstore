@@ -18,6 +18,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Estilo CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/pruebacss.css">
 
     <!-- SEO KEYWORDS -->
@@ -104,8 +105,8 @@
         <div class="container-tomosunicos">
             <div class="fondo-izquierda"></div>
             <div class="fondo-derecha"></div>
-            <div class="imagenbatmancaballero"></div>
-            <div class="descripcion1">
+            <div data-aos="fade-up" class="imagenbatmancaballero"></div>
+            <div data-aos="fade-up" class="descripcion1">
                 <h1>Batman - Caballero Blanco</h1>
                 <h5>Caballero Blanco nos lleva a una realidad alterna no tan distinta a la que solemos conocer pero con
                     graves diferencias en cuanto a la estabilidad mental de Joker y los métodos de Batman, quien también
@@ -115,13 +116,13 @@
                     reformar la ciudad y demostrar que el único que está perjudicando a los habitantes de Gotham es el
                     mismo Batman.</h5>
             </div>
-            <div class="compra-y-boton1">
+            <div data-aos="fade-up" class="compra-y-boton1">
                 <h3>Tomo único</h3>
                 <h4>$1.200 ARS</h4>
                 <button type="button" class="btn btn-primary btn-lg">Añadir al Carro</button>
             </div>
-            <div class="imagenconvergencia"></div>
-            <div class="descripcion2">
+            <div data-aos="fade-up" class="imagenconvergencia"></div>
+            <div data-aos="fade-up" class="descripcion2">
                 <h1>DC Comics - Convergencia</h1>
                 <h5>Mientras los héroes y villanos de decenas de mundos se enfrentan entre sí para seguir existiendo, un
                     grupo heterogéneo de guerreros de una Tierra muerta debe poner fin a esta amenaza que somete el
@@ -132,7 +133,7 @@
                     las épocas y series. ¡Te resulten familiares o te hayas olvidado de ellos, ninguno seguirá siendo el
                     mismo!</h5>
             </div>
-            <div class="compra-y-boton2">
+            <div data-aos="fade-up" class="compra-y-boton2">
                 <h3>Tomo único</h3>
                 <h4>$1.800 ARS</h4>
                 <button type="button" class="btn btn-primary btn-lg">Añadir al Carro</button>
@@ -142,7 +143,8 @@
 
     <footer class="categoria-footer">
         <hr>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribete
+        <button data-aos="zoom-in" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Subscribete
             a nuestro Newsletter</button>
         <div class="social-menu">
             <h3>Siguenos en nuestras redes sociales</h3>
@@ -205,6 +207,12 @@
 
     <!-- Import notificaciones -->
     <script src="../../javascript/prueba.js"></script>
+
+    <!-- Import AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

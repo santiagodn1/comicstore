@@ -18,13 +18,14 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Estilo CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../../css/pruebacss.css">
 
     <!-- SEO KEYWORDS -->
-    <meta name="keywords" content="Comic, infantil, teen titans go, teen, titans, go, dc, marve, batman, niños>
+    <meta name="keywords" content="Comic, infantil, teen titans go, teen, titans, go, dc, marve, batman, niños">
 
     <!-- Lo que aparece cuando compartis la web -->
-    <meta name=" description" content="La tienda de comics mas grande de America Latina | Infantiles">
+    <meta name="description" content="La tienda de comics mas grande de America Latina | Infantiles">
 
     <title>Infantiles</title>
 </head>
@@ -103,8 +104,8 @@
         <div class="container-infantiles">
             <div class="fondo-izquierda"></div>
             <div class="fondo-derecha"></div>
-            <div class="imagenteentitans"></div>
-            <div class="descripcion1">
+            <div data-aos="fade-up" class="imagenteentitans"></div>
+            <div data-aos="fade-up" class="descripcion1">
                 <h1>Teen Titans - GO!</h1>
                 <h5>¡La pandilla de superhéroes adolescentes que amas ha vuelto con más aventuras llenas de acción! ¿En
                     qué se meterán nuestros Titanes a continuación?
@@ -118,8 +119,8 @@
                 <h4>$3.000 ARS</h4>
                 <button type="button" class="btn btn-primary btn-lg">Añadir al Carro</button>
             </div>
-            <div class="imagenbatmanbaticueva"></div>
-            <div class="descripcion2">
+            <div data-aos="fade-up" class="imagenbatmanbaticueva"></div>
+            <div data-aos="fade-up" class="descripcion2">
                 <h1>Buenas Noches, Batcueva</h1>
                 <h5>Puede que Batman esté listo para irse a la cama, ¡pero el crimen nunca duerme! Antes de que el
                     Hombre Murciélago pueda pasar la noche, tendrá que hacer frente a villanos como el Joker, Bane,
@@ -128,7 +129,7 @@
                     esta nueva historia de los chicos de la revista Mad, que combina guiños a clásicos de la literatura
                     infantil con los héroes y villanos del mundo de Batman!</h5>
             </div>
-            <div class="compra-y-boton2">
+            <div data-aos="fade-up" class="compra-y-boton2">
                 <h3>Tomo único</h3>
                 <h4>$800 ARS</h4>
                 <button type="button" class="btn btn-primary btn-lg">Añadir al Carro</button>
@@ -138,7 +139,8 @@
 
     <footer class="categoria-footer">
         <hr>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribete
+        <button data-aos="zoom-in" type="button" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Subscribete
             a nuestro Newsletter</button>
         <div class="social-menu">
             <h3>Siguenos en nuestras redes sociales</h3>
@@ -201,6 +203,13 @@
 
     <!-- Import notificaciones -->
     <script src="../../javascript/prueba.js"></script>
+
+    <!-- Import AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 
 </body>
 
