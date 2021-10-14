@@ -49,7 +49,8 @@ var alertTriggerwicked = document.getElementById('liveAlertBtn-wicked')
 var alertTriggerwickedModal = document.getElementById('liveAlertBtn-wickedModal')
 var alertTriggersubsmodal = document.getElementById('liveAlertBtn-subsmodal')
 var nombreUsuario = document.getElementById('recipient-name')
-var subUsuario = document.getElementById('tipodesub')
+var movieList = document.getElementById("movie");
+var selectedMovie = movieList.options[movieList.selectedIndex].text;
 
 function alert(message, type) {
     var wrapper = document.createElement('div')
@@ -315,7 +316,8 @@ if (alertTriggerwickedModal) {
 
 if (alertTriggersubsmodal) {
     alertTriggersubsmodal.addEventListener('click', function () {
-        alert('Gracias ' + (nombreUsuario.value) + ' te subscribiste a nuestro Newsletter de manera ' + (subUsuario.value), 'success')
+        //alert('Gracias ' + (nombreUsuario.value) + ' te subscribiste a nuestro Newsletter de manera ' + (rate_value.value), 'success')
+        alert('Gracias ' + (nombreUsuario.value) + ' te subscribiste a nuestro Newsletter de manera ' + selectedMovie.text, 'success')
     })
 }
 
